@@ -1,11 +1,11 @@
 {
-  "name": "js-prj",
+  "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://RostyslavR.github.io/js-prj",
+  "homepage": "https://RostyslavR.github.io/filmoteka",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /js-prj/"
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
