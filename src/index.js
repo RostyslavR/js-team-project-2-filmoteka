@@ -5,7 +5,8 @@ import Pagination from './js/pagination';
 const moviedb = new ThemoviedbApi();
 const gallery = new Gallery(refs.gallery);
 const pagination = new Pagination(refs.pagination, reNewPage);
-displayMovies();
+
+// displayMovies();
 
 async function displayMovies(page = 1) {
   const movies = await moviedb.getMovies(page);
