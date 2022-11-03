@@ -1,0 +1,11 @@
+.header {
+  height: 230px;
+  @media screen and (min-width: $tablet) {
+    height: 216px;
+  }
+}
+
+.header .container {
+  height: 100%;
+  background-color: rgb(172, 46, 46);
+}
